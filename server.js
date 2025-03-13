@@ -8,7 +8,7 @@ const MONGO_URI = "mongodb+srv://coderahulmishra:YYpRp6iZ1smjiWNU@cluster0.7s3lw
 app.use(cors());
 
 app.use(cors({
-    origin: ["http://127.0.0.1:5000", "http://localhost:3000"], // Allow only these origins
+    origin: ["http://127.0.0.1:5500", "http://localhost:3000"], // Allow only these origins
     methods: ["GET", "POST", "PUT", "DELETE"], // Allowed methods
     credentials: true
 }));
