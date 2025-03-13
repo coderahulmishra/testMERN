@@ -15,7 +15,7 @@ app.use(cors({
 
 
 app.use(express.json());
-app.use("/auth/api",authRouter)
+app.use(authRouter)
 // app.use(express.urlencoded({ extended: true }));
 
 mongoose.connect(MONGO_URI)
